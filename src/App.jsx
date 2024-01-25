@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchWeather } from "./redux/slices";
-import Search from "./components/Search-bar/Search";
+import Search from "./components/Search-Bar/Search";
 import WeatherCard from "./components/Weather-Card/WeatherCard";
 import Loader from "./components/Loader/Loader";
 
